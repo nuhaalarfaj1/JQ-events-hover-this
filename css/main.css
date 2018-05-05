@@ -1,17 +1,47 @@
+* {
+  transition: 0.5s ease;
+}
+p a {
+  color: white;
+}
+#menu {
+  height: 100vh;
+  text-align: center;
+}
+#menuButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: rgb(231, 148, 227);
+}
+#menu > div {
+  width: 0;
+  height:100%;
+  background-color:rgb(240, 240, 174);
+}
+
+#menu > div.open {
+  width: 100%;
+}
+#menu > div.open p {
+  opacity: 1;
+  transform: translateX(0);
+}
+img{
+width:70%;
+}
 h1 {
- color: tomato;
-    text-transform: uppercase;
-    padding: 50px;
-    margin: 50px;
-    
+  background-color: rgb(218, 208, 218);
+  text-transform: uppercase;
+  padding: 20px;
+  margin: 75px;
+  color:darkgray;
+  
 }
-/* .new-style{
-    color:rgb(90, 90, 84);
-    background-color:black;
-    text-transform: lowercase;
-    font-size: 32px;
+.new-style{
+  color:rgb(245, 245, 175);
+  background-color: rgb(214, 200, 214);
+  text-transform: lowercase;
 }
-.dark{
-    background-color: darkgray;
-    color:white;
-} */
+
+
